@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="header__text">ПОИСК КОМПАНИЙ</h1>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <p class="hero__text">Компания или ИП</p>
+          <input
+            class="hero__input"
+            id="party"
+            name="party"
+            type="text"
+            placeholder="Введите название, ИНН или ОГРН"
+          />
+        </div>
+      </section>
+
+      <section class="result">
+        <div class="container">
+          <p id="type"></p>
+          <div class="result__row">
+            <label class="result__label">Краткое наименование</label>
+            <input class="result__input" id="name_short" />
+          </div>
+          <div class="result__row">
+            <label class="result__label">Полное наименование</label>
+            <input class="result__input" id="name_full" />
+          </div>
+          <div class="result__row">
+            <label class="result__label">ИНН / КПП</label>
+            <input class="result__input" id="inn_kpp" />
+          </div>
+          <div class="result__row">
+            <label class="result__label">Адрес</label>
+            <input class="result__input" id="address" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">
+        С помощью нашего сервиса Вы легко сможете найти информацию о
+        интересующей Вас организации!<br />
+        Просто введите название или скопируйте ИНН в поле "Компания или ИП"
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

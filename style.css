@@ -1,0 +1,86 @@
+body {
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/*=====================================================*/
+
+
+.main{
+  background: #f2f2f2;
+  max-width: 550px;
+  width: 100%;
+  border: 1px dotted #333;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hero__text{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.hero__input {
+  width: 100%;
+  padding: 4px;
+}
+
+.result__row{
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.result__label{
+  font-weight: bold;
+}
+
+.result__input{
+ width: 100%;
+ padding: 4px;
+}
+
+.footer {
+  margin-top: 50px;
+  background: #a4e0b7;
+  border-radius: 10px;
+  padding: 15px;
+}
+.footer__text{
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+/*============ ВЫПАДАЮЩИЙ СПИСОК ============*/
+
+.list-container {
+  background-color: rgb(219, 189, 189);
+  border: 1px solid gray;
+  border-radius: 4px;
+  max-height: 200px;
+  overflow-y: auto;
+  position: absolute;
+  top: 110px;
+  z-index: 1;
+}
+
+.list-item {
+  padding: 4px;
+  cursor: pointer;
+}
+
+.list-item:hover {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
